@@ -39,6 +39,7 @@ const Container = styled.div`
 const GlobalStyle = createGlobalStyle`
   body {
     background-color:#E5E5E5;
+    overflow-y:hidden;
   }
 `;
 
@@ -69,7 +70,6 @@ const LogoTopo = styled.div`
   margin-top:42px;
 
 `;
-
 const StylePerguntas = styled.div`
   width:100%;
   max-height:475px;
